@@ -2,15 +2,17 @@ services:
   - type: web
     name: microdrama-promo-api
     runtime: python
-    # Persistent disk requires a paid service plan; this file does not deploy/purchase it.
-    plan: starter
+    # Free plan: no persistent disk. Run state is ephemeral, which is fine
+    # for a demo run (in-memory jobs die on restart anyway; the UI polls
+    # during a run, keeping the instance awake). PF_PERSISTENT_STORAGE=1 is
+    # required by the API to enable visitor jobs, even though the disk is
+    # ephemeral.
+    plan: free
     buildCommand: pip install -r requirements.txt
-    startCommand: python -m uvicorn api.main:app --host 0.0.0.0 --port $PORT --workers 1
-    healthCheckPath: /api/health
-    disk:
-      name: promo-job-state
-      mountPath: /var/data
-      sizeGB: 1
+    # --forwarded-allow-ips '*' so uvicorn trusts X-Forwarded-Proto from
+    # Render's proxy; otherwise the API sees plain HTTP and rejects job
+    # starts (HTTPS check). Keep --workers 1 (job state is in-memory).
+    startCommand: python -m uvicorn api.main:app --host 0.0.0.0 --port $PORT --workers 1 --forwarded-allow-ips '*'
     envVars:
       - key: PYTHON_VERSION
         value: 3.13.12
@@ -24,8 +26,10 @@ services:
         value: "1"
       - key: PF_PERSISTENT_STORAGE
         value: "1"
+      # Run dirs + budget ledger live here. Ephemeral on free (wiped on
+      # spin-down/restart); must be outside the submission tree.
       - key: PF_RUNS_DIR
-        value: /var/data/promo-web-runs
+        value: /tmp/promo-web-runs
       - key: PF_SESSION_SECRET
         generateValue: true
       # Set to the exact GitHub Pages origin (scheme + host, no path/slash),
