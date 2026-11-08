@@ -1,0 +1,1430 @@
+{
+  "kind": "derived_showcase",
+  "source_note": "Compact projection of the accepted outputs; full transcripts and source screenplays are not included.",
+  "show": "Confidential assignment pack",
+  "note": "Opening-first, question-verified screenplay cuts; model rubric, no footage or audience validation.",
+  "stats": {
+    "episodes": 50,
+    "source_duration_s": 6162.62,
+    "timed_blocks": 3727,
+    "script_lines": 1487,
+    "promos": 29,
+    "avg_promo_s": 46.16,
+    "total_promo_s": 1338.63,
+    "cost_usd": 0.0178,
+    "planned_reviews": 33,
+    "editorial_rejections": 4,
+    "accepted_reviews": 29,
+    "ambiguous_review": 0,
+    "operational_failure": 0,
+    "budget_deferral": 0,
+    "seed_proposals": 38,
+    "boundary_options": 67,
+    "rejected_opening": 12,
+    "unreviewed_options": 34,
+    "bounded_search_untried": 22,
+    "mechanical_failures": 1
+  },
+  "coverage": {
+    "parsed_episodes": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50
+    ],
+    "represented_episodes": [
+      1,
+      3,
+      5,
+      9,
+      11,
+      12,
+      13,
+      15,
+      16,
+      21,
+      22,
+      23,
+      27,
+      28,
+      29,
+      31,
+      34,
+      35,
+      36,
+      39,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      48,
+      49,
+      50
+    ],
+    "complete_coverage": true,
+    "exhaustive_interval_search": false
+  },
+  "ranking_weights": {
+    "H": 0.35,
+    "T": 0.3,
+    "C": 0.2,
+    "P": 0.15
+  },
+  "top_five": [
+    "C07-03-rebuilt-E31-B071",
+    "C08-01-rebuilt-E36-B102",
+    "C06-03-rebuilt-E28-B080",
+    "C08-02-natural",
+    "C01-01-rebuilt-E01-B057"
+  ],
+  "promos": [
+    {
+      "rank": 1,
+      "promo_id": "C07-03-rebuilt-E31-B071",
+      "title": "The Burning Book and the Iron Tip",
+      "duration_s": 29.2,
+      "structure": "continuous",
+      "segments": [
+        {
+          "episode": 31,
+          "start": "02:10.80",
+          "end": "02:40.00"
+        }
+      ],
+      "episodes": [
+        31
+      ],
+      "hook": {
+        "quote": "Enough!",
+        "at": "E31 02:11.00",
+        "description": "A person loses control and shouts enough as a hot poker presses into a book."
+      },
+      "cliffhanger": {
+        "quote": "Extreme macro close-up of Juliana's wide, trembling eye. The brilliant orange ember of the hot poker reflects clearly in the center of her pupil, holding on the terrifying cliffhanger before an abrupt cut.",
+        "open_question": "Will the tormentor's glowing iron reach the captive's eyes, or will the threat be carried out before the cut?",
+        "at": "E31 02:35.20"
+      },
+      "why_it_works": "The tormentor's cruelty is clear from the cited lines, and the book gives the captive a concrete emotional stake. The iron moving toward her eyes, shown in E31-B085 through E31-B087, leaves a specific danger open at the cut.",
+      "biggest_weakness": "The cut comes just as the threat reaches the captive's eyes, so the viewer must rely on the held close-up for tension rather than a settled outcome.",
+      "viewer_question": "Will the tormentor's glowing iron reach the captive's eyes, or will the threat be carried out before the cut?",
+      "ending_summary": "In a wet castle dungeon, the tormentor burns the captive's mother's botanical book while the chained captive pleads. The tormentor then lifts the glowing iron to the captive's face, and the cut lands on the ember reflected in her terrified eye with the threat still unresolved.",
+      "scores": {
+        "H": 4,
+        "T": 5,
+        "C": 5,
+        "P": 4,
+        "composite": 90.0
+      },
+      "flags": [
+        "soft:dialogue_impact_gap_8.0s_review_pacing"
+      ],
+      "witness": {
+        "block_id": "E32-B014",
+        "quote": "Low-angle shot of Catherine swinging the flaming orange iron upward from the book."
+      },
+      "first_post": true
+    },
+    {
+      "rank": 2,
+      "promo_id": "C08-01-rebuilt-E36-B102",
+      "title": "The Duke Returns for the Bride",
+      "duration_s": 34.0,
+      "structure": "continuous",
+      "segments": [
+        {
+          "episode": 36,
+          "start": "02:43.00",
+          "end": "03:17.00"
+        }
+      ],
+      "episodes": [
+        36
+      ],
+      "hook": {
+        "quote": "Alexander, you cannot go back there alone!",
+        "at": "E36 02:43.20",
+        "description": "A woman grabs a man's coat and urgently tells him he cannot go back."
+      },
+      "cliffhanger": {
+        "quote": "...their dead Duke is coming home.",
+        "open_question": "Will the man who vows to return for Juliana reach the people holding her before the wedding, and what will his return cost?",
+        "at": "E36 03:13.00"
+      },
+      "why_it_works": "The companion's plea and the man's escalating grievances establish a clear wrong and a deadline. His walk into the blizzard and the two-day countdown turn the wedding into a concrete threat, and the final line promises a confrontation.",
+      "biggest_weakness": "The cut shows only the vow and the departure, so the forces he faces and his plan remain unseen, which makes the confrontation feel distant.",
+      "viewer_question": "Will the man who vows to return for Juliana reach the people holding her before the wedding, and what will his return cost?",
+      "ending_summary": "The pleading companion tries to hold back the man, who declares that his enemies have taken his home and now Juliana. He walks out into the snowy forest, promising they have two days before the wedding. He closes by warning that the dead Duke is coming home, leaving his return to confront the wedding party open.",
+      "scores": {
+        "H": 4,
+        "T": 5,
+        "C": 4,
+        "P": 4,
+        "composite": 86.0
+      },
+      "flags": [
+        "soft:dialogue_impact_gap_5.2s_review_pacing"
+      ],
+      "witness": null,
+      "first_post": true
+    },
+    {
+      "rank": 3,
+      "promo_id": "C06-03-rebuilt-E28-B080",
+      "title": "The Book That Could Hang Her",
+      "duration_s": 25.8,
+      "structure": "continuous",
+      "segments": [
+        {
+          "episode": 28,
+          "start": "01:51.00",
+          "end": "02:16.80"
+        }
+      ],
+      "episodes": [
+        28
+      ],
+      "hook": {
+        "quote": "...because no respectable man would have her.",
+        "at": "E28 01:51.10",
+        "description": "One person whispers a humiliating insult inches from another's face, sparking a furious, defiant reaction within the first three seconds."
+      },
+      "cliffhanger": {
+        "quote": "...before he sends you to the gallows.",
+        "open_question": "Will V2 be able to save herself and the herbarium from V1's accusation before the magistrate, or will she be hanged?",
+        "at": "E28 02:14.60"
+      },
+      "why_it_works": "The cut builds from a humiliating whisper to a concrete danger: the captive's imprisonment is ordered, and the book she treasures becomes the instrument of her possible execution. The captive's fury and the rival's cold smile make the stakes clear and personal.",
+      "biggest_weakness": "The clip leaves the captive's fate and the book's evidentiary value unresolved, and the brief spoken threat and the imprisonment order come quickly, so the exact legal mechanism of the accusation is not shown.",
+      "viewer_question": "Will V2 be able to save herself and the herbarium from V1's accusation before the magistrate, or will she be hanged?",
+      "ending_summary": "The rival lady taunts the captive, who was once a disgraced woman now married, and seizes her mother's herbarium. She orders the captive dragged to the wet cells and threatens to use the book as evidence to send her to the gallows before a magistrate. The clip ends on her cold threat while the captive is held by guards.",
+      "scores": {
+        "H": 4,
+        "T": 4,
+        "C": 5,
+        "P": 4,
+        "composite": 84.0
+      },
+      "flags": [
+        "soft:mid_shot_start"
+      ],
+      "witness": null,
+      "first_post": true
+    },
+    {
+      "rank": 4,
+      "promo_id": "C08-02-natural",
+      "title": "The Buried Duke Returns",
+      "duration_s": 48.41,
+      "structure": "continuous",
+      "segments": [
+        {
+          "episode": 39,
+          "start": "00:50.00",
+          "end": "01:38.41"
+        }
+      ],
+      "episodes": [
+        39
+      ],
+      "hook": {
+        "quote": "Close-up framed into a cracked wooden wall mirror reflecting Alexander with long unkempt hair, a thick beard, and combat scars across his cheek.",
+        "at": "E39 00:50.00",
+        "description": "A close-up shot of a rugged, scarred man staring solemnly at his reflection in a cracked wooden wall mirror."
+      },
+      "cliffhanger": {
+        "quote": "And I am bringing my wife home.",
+        "open_question": "Will V1 get his wife back from the chapel, and what will his confrontation there cost?",
+        "at": "E39 01:35.00"
+      },
+      "why_it_works": "The returning duke's declaration that he is bringing his wife home, backed by the chapel being secured, sets up a concrete confrontation that is still unresolved at the cut, so the viewer wants to see whether he recovers her and at what cost.",
+      "biggest_weakness": "Little of the wife, the chapel's defenders, or the reason for the exile is shown, so the stakes of the confrontation rest mainly on the duke's declarations rather than on visible opposition.",
+      "viewer_question": "Will V1 get his wife back from the chapel, and what will his confrontation there cost?",
+      "ending_summary": "The exiled duke, long hidden behind a scarred, bearded appearance, shaves and trims himself, dons his navy ducal coat, and strides through the snow toward the chapel after ordering a loyalist soldier to secure it. He declares he is taking back his house and bringing his wife home, and the cut ends on his burning determination.",
+      "scores": {
+        "H": 3,
+        "T": 5,
+        "C": 5,
+        "P": 4,
+        "composite": 83.0
+      },
+      "flags": [
+        "soft:no_early_sound_visual_hook_required",
+        "soft:dialogue_impact_gap_12.0s_review_pacing"
+      ],
+      "witness": null,
+      "first_post": false
+    },
+    {
+      "rank": 5,
+      "promo_id": "C01-01-rebuilt-E01-B057",
+      "title": "The Discarded Bride At the Altar",
+      "duration_s": 56.6,
+      "structure": "continuous",
+      "segments": [
+        {
+          "episode": 1,
+          "start": "01:21.40",
+          "end": "02:18.00"
+        }
+      ],
+      "episodes": [
+        1
+      ],
+      "hook": {
+        "quote": "Tell them this is a mistake.",
+        "at": "E01 01:21.40",
+        "description": "A woman drops to her knees beside a seated man and pleads for him to tell them it is a mistake."
+      },
+      "cliffhanger": {
+        "quote": "Cut to black.",
+        "open_question": "Will V1 strike back or accept this humiliation, and what will she do now that she has been publicly cast aside at the altar?",
+        "at": "E01 02:17.00"
+      },
+      "why_it_works": "The rejected bride's pleading, her father's silence, and the groom's public rejection establish a clear humiliation that the bride answers with a hardening resolve, leaving her next move open as the screen cuts to black.",
+      "biggest_weakness": "The cut ends on her resolve without showing what action she will take, so the immediate response is left entirely to the viewer's expectation.",
+      "viewer_question": "Will V1 strike back or accept this humiliation, and what will she do now that she has been publicly cast aside at the altar?",
+      "ending_summary": "At the cathedral, the bride's father refuses to look at her and her mother publicly dismisses her in favor of the sister. The groom then calls off the wedding and turns to the sister. The bride clutches her gown, hardens into cold defiance, and the scene cuts to black.",
+      "scores": {
+        "H": 4,
+        "T": 4,
+        "C": 4,
+        "P": 4,
+        "composite": 80.0
+      },
+      "flags": [
+        "soft:outside_25_50s",
+        "soft:dialogue_impact_gap_6.8s_review_pacing"
+      ],
+      "witness": null,
+      "first_post": true
+    },
+    {
+      "rank": 6,
+      "promo_id": "C01-03-rebuilt-E05-B033",
+      "title": "The Beggar's Wife",
+      "duration_s": 41.3,
+      "structure": "continuous",
+      "segments": [
+        {
+          "episode": 5,
+          "start": "00:55.20",
+          "end": "01:36.50"
+        }
+      ],
+      "episodes": [
+        5
+      ],
+      "hook": {
+        "quote": "Barbara, don't!",
+        "at": "E05 00:55.50",
+        "description": "Person 5 violently wrenches a ledger from V1's grip while V1 yells 'Barbara, don't!' and the book crashes into a puddle."
+      },
+      "cliffhanger": {
+        "quote": "A noblewoman reduced to a beggar's wife!",
+        "open_question": "Will the bride stay bound to the bearded rescuer, now publicly branded a beggar's wife, or will the humiliation force a different choice?",
+        "at": "E05 01:33.00"
+      },
+      "why_it_works": "The ledger knocked into the puddle gives the bride a concrete object of loss, and the rescuer's gentle recovery of it, followed by the mocker's accusation, turns a rescue into a public humiliation that raises the question of what her bond to him will cost her.",
+      "biggest_weakness": "The rescuer's role and the bride's marriage are only implied through the insult, so the stakes of the confrontation depend on the viewer accepting the beggar's-wife label without further context.",
+      "viewer_question": "Will the bride stay bound to the bearded rescuer, now publicly branded a beggar's wife, or will the humiliation force a different choice?",
+      "ending_summary": "The bride kneels in the wet courtyard and reaches for her mother's ledger while her former companions mock her. The bearded rescuer kneels beside her, returns the book, and takes her hands. The clip ends with one of the mockers pointing up at the bride and calling her a noblewoman reduced to a beggar's wife, leaving her standing with the rescuer under public scorn.",
+      "scores": {
+        "H": 4,
+        "T": 4,
+        "C": 4,
+        "P": 4,
+        "composite": 80.0
+      },
+      "flags": [
+        "soft:mid_shot_start",
+        "soft:dialogue_impact_gap_6.8s_review_pacing"
+      ],
+      "witness": null,
+      "first_post": true
+    },
+    {
+      "rank": 7,
+      "promo_id": "C02-01-natural",
+      "title": "The Nobleman's Rumor",
+      "duration_s": 56.0,
+      "structure": "jump_cut",
+      "segments": [
+        {
+          "episode": 9,
+          "start": "00:02.00",
+          "end": "00:13.50"
+        },
+        {
+          "episode": 9,
+          "start": "01:11.00",
+          "end": "01:55.50"
+        }
+      ],
+      "episodes": [
+        9
+      ],
+      "hook": {
+        "quote": "Heavy, frantic pounding echoes against the heavy wooden cottage door.",
+        "at": "E09 00:02.00",
+        "description": "Heavy pounding echoes at the door, causing V3 to look up in alarm and V1 to warn someone to stay back while he opens it."
+      },
+      "cliffhanger": {
+        "quote": "Extreme close-up macro shot of the Blond Nobleman's eye, the flickering fireplace flames dancing across his widening iris as dark dread paralyzes him, holding until the screen cuts to black.",
+        "open_question": "Is the scarred war veteran truly tied to the late Duke, and will the Nobleman's hidden secret be exposed?",
+        "at": "E09 01:52.00"
+      },
+      "why_it_works": "The messenger's report turns the Nobleman's smugness into visible alarm, as shown by his sudden 'Where?' and the closing macro shot of his dread. This leaves a clear question about the veteran's identity and the Nobleman's exposure, supported by the 'resembles the late Duke' and 'same kind of scar' lines.",
+      "biggest_weakness": "The veteran is only a rumored presence and never appears, so the threat stays abstract. The Nobleman's own secret is implied rather than shown, which weakens the stakes of the open question.",
+      "viewer_question": "Is the scarred war veteran truly tied to the late Duke, and will the Nobleman's hidden secret be exposed?",
+      "ending_summary": "A messenger brings the seated Blond Nobleman word of a war veteran who resembles the late Duke and carries the Duke's scar. The Nobleman first scoffs, then freezes in alarm, orders the rumor left alone, and is left staring into the fire in rising dread as the screen holds on his eye.",
+      "scores": {
+        "H": 4,
+        "T": 4,
+        "C": 4,
+        "P": 4,
+        "composite": 80.0
+      },
+      "flags": [
+        "soft:mid_shot_start",
+        "soft:outside_25_50s",
+        "soft:dialogue_impact_gap_4.3s_review_pacing"
+      ],
+      "witness": null,
+      "first_post": true
+    },
+    {
+      "rank": 8,
+      "promo_id": "C03-01-rebuilt-E11-B055",
+      "title": "The Watch in the Soldier's Coat",
+      "duration_s": 50.95,
+      "structure": "continuous",
+      "segments": [
+        {
+          "episode": 11,
+          "start": "01:01.80",
+          "end": "01:52.75"
+        }
+      ],
+      "episodes": [
+        11
+      ],
+      "hook": {
+        "quote": "Please! There is nothing here!",
+        "at": "E11 01:01.80",
+        "description": "A low-angle close-up shows a crying person crawling and pleading while another person opens a keepsake box."
+      },
+      "cliffhanger": {
+        "quote": "Tight macro shot of the gold pocket watch dangling and swaying gently from the Constable's fingers on its long chain, with Gerald blurred in the background grinning with sinister triumph as the scene hangs in a devastating freeze-frame.",
+        "open_question": "Will the soldier be exposed and punished as the thief, or will the wife be cleared, before the accuser's scheme plays out?",
+        "at": "E11 01:46.80"
+      },
+      "why_it_works": "The accuser's jeer and the wife's desperate defence set up a clear threat. The soldier's coiled rage and his line about one blow give the viewer a concrete danger. The watch turns the accusation toward the soldier, and the accuser's gloating ending makes it feel like a planted trap that the viewer wants to see sprung.",
+      "biggest_weakness": "The cut never shows who put the watch in the coat or how the soldier is connected to the theft, so the reversal depends on the viewer accepting the accuser's setup without seeing it. The restraining companion's own motive is also left unclear.",
+      "viewer_question": "Will the soldier be exposed and punished as the thief, or will the wife be cleared, before the accuser's scheme plays out?",
+      "ending_summary": "The accused wife is accused of theft while the restrained soldier struggles against the smug accuser. The restraining companion searches the soldier's coat and pulls out a gold watch, horrifying the wife. The soldier's face hardens, the accuser laughs in triumph, and the watch sways from the companion's fingers, leaving the soldier's fate and the wife's innocence unresolved.",
+      "scores": {
+        "H": 4,
+        "T": 4,
+        "C": 4,
+        "P": 4,
+        "composite": 80.0
+      },
+      "flags": [
+        "soft:outside_25_50s",
+        "soft:dialogue_impact_gap_11.0s_review_pacing"
+      ],
+      "witness": {
+        "block_id": "E12-B002",
+        "quote": "Put out your hands, veteran. You are under arrest for theft."
+      },
+      "first_post": true
+    },
+    {
+      "rank": 9,
+      "promo_id": "C03-02-rebuilt-E12-B041",
+      "title": "The Garden Ultimatum",
+      "duration_s": 26.41,
+      "structure": "continuous",
+      "segments": [
+        {
+          "episode": 12,
+          "start": "01:00.80",
+          "end": "01:27.21"
+        }
+      ],
+      "episodes": [
+        12
+      ],
+      "hook": {
+        "quote": "A lady's hands will be shredded to ribbons!",
+        "at": "E12 01:00.80",
+        "description": "A man taps his whip against his palm and declares that a lady's hands will be shredded to ribbons."
+      },
+      "cliffhanger": {
+        "quote": "Juliana locks eyes with Clarissa without flinching as the scene freezes on her brave, sacrificial defiance.",
+        "open_question": "Will the wife agree to the whispered demand, or refuse and let her husband hang, and what is the act she is being asked to perform?",
+        "at": "E12 01:24.70"
+      },
+      "why_it_works": "The bargain is stated plainly and the husband's life gives it weight. The wife's shift from anguish to fierce resolve, sustained by close shots and the silent stare, builds suspense toward her decision, as in the whispered ultimatum and her defiant demand.",
+      "biggest_weakness": "The act the wife is asked to perform is never named, so the stakes of her choice rest on an undefined demand, and the garden's significance is not yet explained.",
+      "viewer_question": "Will the wife agree to the whispered demand, or refuse and let her husband hang, and what is the act she is being asked to perform?",
+      "ending_summary": "In a cottage, the whispering intruder threatens the wife with her husband's hanging unless she performs an unnamed act. The scarred protector urges her not to submit, but she refuses to let them take him. The clip ends with her demanding where the garden is while she holds the intruder's gaze in defiance, leaving her choice and the act unresolved.",
+      "scores": {
+        "H": 4,
+        "T": 4,
+        "C": 4,
+        "P": 4,
+        "composite": 80.0
+      },
+      "flags": [
+        "soft:dialogue_impact_gap_4.6s_review_pacing"
+      ],
+      "witness": {
+        "block_id": "E13-B008",
+        "quote": "I must."
+      },
+      "first_post": true
+    },
+    {
+      "rank": 10,
+      "promo_id": "C03-03-natural",
+      "title": "The Emerald in the Briars",
+      "duration_s": 56.88,
+      "structure": "continuous",
+      "segments": [
+        {
+          "episode": 13,
+          "start": "01:02.00",
+          "end": "01:58.88"
+        }
+      ],
+      "episodes": [
+        13
+      ],
+      "hook": {
+        "quote": "Low-angle medium close-up of Gerald shouting down into the garden.",
+        "at": "E13 01:02.00",
+        "description": "V1 leans on the railing and angrily shouts down to Juliana about her husband's freedom."
+      },
+      "cliffhanger": {
+        "quote": "Macro close-up holding on Juliana's bloodied fist firmly gripping the emerald ring against the frozen ground as the episode cuts to black.",
+        "open_question": "Will the bride get the emerald ring to the people holding her husband, and does the ring actually win his freedom or become a new trap?",
+        "at": "E13 01:57.20"
+      },
+      "why_it_works": "The captor's taunt establishes the husband's freedom as the stake, and the bride's desperate search through the thorns makes the buried ring a sharp, visible payoff. Closing on her bloodied fist around the ring leaves a clear question about whether the ring can save him.",
+      "biggest_weakness": "The ring's value and how it would be used to free the husband are never shown, so the closing hold rests on the bride's grip alone rather than a concrete plan.",
+      "viewer_question": "Will the bride get the emerald ring to the people holding her husband, and does the ring actually win his freedom or become a new trap?",
+      "ending_summary": "The bride, crawling bloodied through frozen thorns while the husband's captor taunts her from the terrace, finds a buried emerald ring and grips it tightly as the episode cuts to black, with the ring's use still unresolved.",
+      "scores": {
+        "H": 4,
+        "T": 4,
+        "C": 4,
+        "P": 4,
+        "composite": 80.0
+      },
+      "flags": [
+        "soft:outside_25_50s",
+        "soft:dialogue_impact_gap_16.4s_review_pacing"
+      ],
+      "witness": null,
+      "first_post": true
+    },
+    {
+      "rank": 11,
+      "promo_id": "C03-04-rebuilt-E15-B039",
+      "title": "The Garden Stand-Off",
+      "duration_s": 32.5,
+      "structure": "continuous",
+      "segments": [
+        {
+          "episode": 15,
+          "start": "00:53.50",
+          "end": "01:26.00"
+        }
+      ],
+      "episodes": [
+        15
+      ],
+      "hook": {
+        "quote": "My mother's plants...",
+        "at": "E15 00:53.50",
+        "description": "Close-up of a tear-stained, mud-streaked face trembling in agony while speaking about her mother's plants."
+      },
+      "cliffhanger": {
+        "quote": "Tense, low dramatic cello swell holding into an abrupt cliffhanger cut.",
+        "open_question": "Can the rescuer hold off three armed thugs and protect the captive, or will the violence overwhelm him?",
+        "at": "E15 01:24.00"
+      },
+      "why_it_works": "The club raised over the herbs gives an immediate physical threat, and the rescuer's arrival, which the captive greets with relief, establishes him as the protector. The thug's challenge and the captive's anxious stare leave the outcome of the confrontation open at the cut.",
+      "biggest_weakness": "The rescuer's ability to win is not yet shown, so the ending depends on suspense rather than a demonstrated outcome.",
+      "viewer_question": "Can the rescuer hold off three armed thugs and protect the captive, or will the violence overwhelm him?",
+      "ending_summary": "The captive kneels among the ruined herbs as the Tall Thug raises his club. She cries out, and the rescuer bursts in from the mist, placing himself between her and the three thugs. The thug who taunts him as a veteran regroups with his club in hand, and the scene ends on a cello swell with the captive frozen in fear as violence hangs on a knife's edge.",
+      "scores": {
+        "H": 4,
+        "T": 4,
+        "C": 4,
+        "P": 4,
+        "composite": 80.0
+      },
+      "flags": [
+        "soft:dialogue_impact_gap_9.5s_review_pacing"
+      ],
+      "witness": null,
+      "first_post": true
+    },
+    {
+      "rank": 12,
+      "promo_id": "C04-01-natural",
+      "title": "Harrington's Hired Hands",
+      "duration_s": 55.2,
+      "structure": "continuous",
+      "segments": [
+        {
+          "episode": 16,
+          "start": "00:00.00",
+          "end": "00:55.20"
+        }
+      ],
+      "episodes": [
+        16
+      ],
+      "hook": {
+        "quote": "Alexander stands tall and unyielding, blocking the path to Juliana, while the Thug with Cap steps forward clutching an iron pipe.",
+        "at": "E16 00:00.00",
+        "description": "A person stands unyielding blocking the path while another steps forward with an iron pipe."
+      },
+      "cliffhanger": {
+        "quote": "Gerald...",
+        "open_question": "Why did Gerald Harrington hire men to attack her, and what will the protector do with the name he has just forced out of the thug?",
+        "at": "E16 00:53.20"
+      },
+      "why_it_works": "The protector's controlled violence establishes his competence and the threat to the woman. The interrogation pays off with a concrete name, and the woman's reaction makes that name personally wounding, so the cut ends on a sharp new question about Gerald's motive.",
+      "biggest_weakness": "The cut ends on the reveal itself, so the protector's response and the reason Gerald would target the woman remain unshown, and the stakes of Gerald's betrayal are not yet defined beyond the attack.",
+      "viewer_question": "Why did Gerald Harrington hire men to attack her, and what will the protector do with the name he has just forced out of the thug?",
+      "ending_summary": "The protector fends off three attackers in the garden, then interrogates the one thug he has pinned against the wall. Under threat, the thug blurts that Gerald Harrington paid them. The woman on the ground reels in devastated disbelief and whispers Gerald's name, leaving the reason for the betrayal and the protector's next move open.",
+      "scores": {
+        "H": 4,
+        "T": 4,
+        "C": 4,
+        "P": 4,
+        "composite": 80.0
+      },
+      "flags": [
+        "soft:no_early_sound_visual_hook_required",
+        "soft:outside_25_50s",
+        "soft:dialogue_impact_gap_4.5s_review_pacing"
+      ],
+      "witness": null,
+      "first_post": true
+    },
+    {
+      "rank": 13,
+      "promo_id": "C05-02-rebuilt-E22-B052",
+      "title": "The Herbalist at the Dying Duchess's Bedside",
+      "duration_s": 49.2,
+      "structure": "continuous",
+      "segments": [
+        {
+          "episode": 22,
+          "start": "01:21.80",
+          "end": "02:11.00"
+        }
+      ],
+      "episodes": [
+        22
+      ],
+      "hook": {
+        "quote": "Where is the West Wing?",
+        "at": "E22 01:22.50",
+        "description": "A close-up of a person clutching a wash bucket with scanning eyes, immediately asking urgently where the West Wing is."
+      },
+      "cliffhanger": {
+        "quote": "Extreme close-up on the Dowager Duchess's terrified, wide eyes staring up as she chokes for air, the haunting realization of poison lingering as dramatic music hits an abrupt, suspenseful cliffhanger.",
+        "open_question": "Who has been treating the Duchess, and is that treatment killing her before she can answer?",
+        "at": "E22 02:08.80"
+      },
+      "why_it_works": "The maid's herbalist expertise gives her a credible reason to suspect the illness is unnatural, and the Duchess's sudden seizure turns that suspicion into immediate danger. The demand 'Who has been treating you?' points the viewer toward a hidden caregiver whose identity is the open question.",
+      "biggest_weakness": "The cut establishes that the Duchess is dying but never shows the maid's evidence for poisoning or any treatment source, so the suspected threat stays abstract until the next scene.",
+      "viewer_question": "Who has been treating the Duchess, and is that treatment killing her before she can answer?",
+      "ending_summary": "The herbalist maid slips into the locked West Wing bedchamber, finds the Duchess gravely ill, and realizes her illness is not ordinary fever. The Duchess convulses, and the maid demands to know who has been treating her. The clip ends on the Duchess choking, leaving her answer and her survival open.",
+      "scores": {
+        "H": 4,
+        "T": 4,
+        "C": 4,
+        "P": 4,
+        "composite": 80.0
+      },
+      "flags": [
+        "soft:dialogue_impact_gap_15.5s_review_pacing"
+      ],
+      "witness": null,
+      "first_post": true
+    },
+    {
+      "rank": 14,
+      "promo_id": "C05-03-free",
+      "title": "The Interrupted Antidote",
+      "duration_s": 52.5,
+      "structure": "continuous",
+      "segments": [
+        {
+          "episode": 23,
+          "start": "01:19.00",
+          "end": "02:11.50"
+        }
+      ],
+      "episodes": [
+        23
+      ],
+      "hook": {
+        "quote": "Someone is poisoning her.",
+        "at": "E23 01:19.00",
+        "description": "V1 states someone is poisoning her while looking directly at V2."
+      },
+      "cliffhanger": {
+        "quote": "Close-up on the brass door lever as it slowly rotates downward, and the heavy door cracks open inward into the room—cutting to an intense, heart-stopping cliffhanger.",
+        "open_question": "Who is entering the room through the door, and will the intruder discover or stop the healer's attempt to save the Duchess?",
+        "at": "E23 02:09.50"
+      },
+      "why_it_works": "The companion's plea and the healer's reluctant \"I can try\" set a clear rescue stake, and the sudden thump, the warning \"someone is coming,\" and the opening door create an immediate interruption that leaves the healer's cure and the Duchess's survival in doubt.",
+      "biggest_weakness": "The intruder's identity and purpose are not shown, so the ending depends entirely on the door-opening beat to carry the suspense, and the companion's own role in the poisoning remains unexplained.",
+      "viewer_question": "Who is entering the room through the door, and will the intruder discover or stop the healer's attempt to save the Duchess?",
+      "ending_summary": "The healer, who has just named arsenic as the poison, grinds charcoal and herbs to save the dying Duchess while her companion pleads for help. A thump and footsteps freeze the healer, the companion warns that someone is coming, and the door latch turns and the door cracks open as the healer grips her unfinished vial.",
+      "scores": {
+        "H": 4,
+        "T": 4,
+        "C": 4,
+        "P": 4,
+        "composite": 80.0
+      },
+      "flags": [
+        "soft:mid_shot_start",
+        "soft:outside_25_50s",
+        "soft:dialogue_impact_gap_7.5s_review_pacing"
+      ],
+      "witness": {
+        "block_id": "E24-B003",
+        "quote": "a haughty blonde noblewoman in an elegant lavender empire-line gown enters, clutching a riding crop."
+      },
+      "first_post": true
+    },
+    {
+      "rank": 15,
+      "promo_id": "C06-02-rebuilt-E27-B004",
+      "title": "The Ring at the Bedside",
+      "duration_s": 48.3,
+      "structure": "continuous",
+      "segments": [
+        {
+          "episode": 27,
+          "start": "00:03.20",
+          "end": "00:51.50"
+        }
+      ],
+      "episodes": [
+        27
+      ],
+      "hook": {
+        "quote": "Look at me, girl. Who gave this to you?",
+        "at": "E27 00:03.40",
+        "description": "The dowager duchess grips the maid's wrist in a low-angle shot and urgently demands to know who gave her something."
+      },
+      "cliffhanger": {
+        "quote": "The heavy mahogany double doors burst open, revealing the Blond Nobleman flanked by Lady Catherine and a royal guard in uniform.",
+        "open_question": "Who is the Blond Nobleman and what does his sudden entrance mean for the maid and the Duchess's questioning?",
+        "at": "E27 00:48.80"
+      },
+      "why_it_works": "The Duchess, the dying or grieving mother, forces the maid, the frightened wife, to reveal that her soldier husband may be the missing son, and the ring's crest gives the question concrete weight. The clip ends on an abrupt interruption that leaves the maid's fate and the nobleman's purpose open.",
+      "biggest_weakness": "The Blond Nobleman's role and motive are not established before he appears, so the interruption's consequences are only suggested rather than shown.",
+      "viewer_question": "Who is the Blond Nobleman and what does his sudden entrance mean for the maid and the Duchess's questioning?",
+      "ending_summary": "The Duchess presses her maid on the ring her lost son wore and on her husband's identity, then violent pounding breaks the interrogation as the doors burst open to reveal the Blond Nobleman and a royal guard.",
+      "scores": {
+        "H": 4,
+        "T": 4,
+        "C": 4,
+        "P": 4,
+        "composite": 80.0
+      },
+      "flags": [
+        "soft:mid_shot_start"
+      ],
+      "witness": null,
+      "first_post": true
+    },
+    {
+      "rank": 16,
+      "promo_id": "C06-04-free",
+      "title": "The Herbalist's Last Hour",
+      "duration_s": 51.4,
+      "structure": "continuous",
+      "segments": [
+        {
+          "episode": 29,
+          "start": "00:27.10",
+          "end": "01:18.50"
+        }
+      ],
+      "episodes": [
+        29
+      ],
+      "hook": {
+        "quote": "It is medicine!",
+        "at": "E29 00:27.10",
+        "description": "A close-up of a person held by guards glaring defiantly while shouting that it is medicine."
+      },
+      "cliffhanger": {
+        "quote": "What exactly do you think a penniless veteran can do against Ashbrook?",
+        "open_question": "Can the captive herbalist survive the rival's threat to burn the herbarium and hang her, or will her husband reach her first?",
+        "at": "E29 01:14.70"
+      },
+      "why_it_works": "The rival's specific threats of burning the book and hanging the herbalist create concrete danger, and the herbalist's appeal to her husband sets up a rescue question that the closing mockery leaves unanswered.",
+      "biggest_weakness": "The husband and the power of Ashbrook remain unseen, so the rescue question depends on dialogue alone and the rival's stakes are stated more than shown.",
+      "viewer_question": "Can the captive herbalist survive the rival's threat to burn the herbarium and hang her, or will her husband reach her first?",
+      "ending_summary": "The captive herbalist, held by guards, watches the rival take the dead woman's herbarium and threaten to burn it and hang her as a witch. She declares her scarred soldier husband will find her, but the rival mocks his chances against Ashbrook, leaving her rescue and the book's fate open.",
+      "scores": {
+        "H": 4,
+        "T": 4,
+        "C": 4,
+        "P": 4,
+        "composite": 80.0
+      },
+      "flags": [
+        "soft:mid_shot_start",
+        "soft:outside_25_50s"
+      ],
+      "witness": null,
+      "first_post": true
+    },
+    {
+      "rank": 17,
+      "promo_id": "C07-02-rebuilt-E35-B052",
+      "title": "The Ambush Was Ordered",
+      "duration_s": 46.8,
+      "structure": "continuous",
+      "segments": [
+        {
+          "episode": 35,
+          "start": "01:50.70",
+          "end": "02:37.50"
+        }
+      ],
+      "episodes": [
+        35
+      ],
+      "hook": {
+        "quote": "How did you escape?",
+        "at": "E35 01:51.00",
+        "description": "A woman leans forward in disbelief and asks how someone escaped."
+      },
+      "cliffhanger": {
+        "quote": "Close-up on his mother's face as the horrifying realization hits her, her mouth open in a soundless gasp of sheer dread as the scene holds and slowly fades.",
+        "open_question": "Who are the men ruling Ashwood who ordered the ambush, and what will the survivor do against them?",
+        "at": "E35 02:30.50"
+      },
+      "why_it_works": "The survivor's escalating reveals, from crawling away alone to being erased on purpose, build a clear danger. The closing link to the men ruling Ashwood gives the viewer a specific, powerful identity to fear and a question the cut ends on.",
+      "biggest_weakness": "The rulers of Ashwood are never named or characterized, so the threat stays abstract, and the cut offers no concrete action or next step to make the stakes feel immediate.",
+      "viewer_question": "Who are the men ruling Ashwood who ordered the ambush, and what will the survivor do against them?",
+      "ending_summary": "The survivor, who was left for dead after an ambush, reveals to the woman that the men behind it are the same men ruling Ashwood now. The clip ends on her reaction and a swelling orchestral crescendo, leaving the identity of those rulers and what the survivor will do about them open.",
+      "scores": {
+        "H": 4,
+        "T": 4,
+        "C": 4,
+        "P": 4,
+        "composite": 80.0
+      },
+      "flags": [
+        "soft:mid_shot_start",
+        "soft:dialogue_impact_gap_6.2s_review_pacing"
+      ],
+      "witness": null,
+      "first_post": true
+    },
+    {
+      "rank": 18,
+      "promo_id": "C09-02-rebuilt-E42-B014",
+      "title": "The Returned Heir Comes Down the Aisle",
+      "duration_s": 54.4,
+      "structure": "continuous",
+      "segments": [
+        {
+          "episode": 42,
+          "start": "00:23.40",
+          "end": "01:17.80"
+        }
+      ],
+      "episodes": [
+        42
+      ],
+      "hook": {
+        "quote": "I said arrest him!",
+        "at": "E42 00:23.50",
+        "description": "Close-up on V1 with bulging veins shouting I said arrest him"
+      },
+      "cliffhanger": {
+        "quote": "And now, Rupert... we settle what you stole.",
+        "open_question": "Will the returned heir win back the dukedom from Rupert, and what will he do to him?",
+        "at": "E42 01:13.80"
+      },
+      "why_it_works": "The usurper's panic and his claim that the heir is dead set up a clear reversal. The mother's recognition, which the stunned guests witness, makes the stakes public and personal. The final vow, with the returned heir's hand on his sabre, turns the wedding into an open confrontation.",
+      "biggest_weakness": "Whether the mother's recognition is accepted by the court, and how the rivalry will be resolved, is left entirely unseen, so the closing confrontation has no visible action yet.",
+      "viewer_question": "Will the returned heir win back the dukedom from Rupert, and what will he do to him?",
+      "ending_summary": "At the altar, the blond usurper orders the scarred man arrested, but the man walks down the aisle and is recognized by his mother as her son Alexander, the rightful Duke of Ashburn. She declares him heir before the nobility. The clip ends with the returned heir turning on Rupert with a vow to settle what was stolen, leaving the confrontation and its outcome open.",
+      "scores": {
+        "H": 4,
+        "T": 4,
+        "C": 4,
+        "P": 4,
+        "composite": 80.0
+      },
+      "flags": [
+        "soft:outside_25_50s",
+        "soft:dialogue_impact_gap_5.5s_review_pacing"
+      ],
+      "witness": {
+        "block_id": "E43-B002",
+        "quote": "You're lying!"
+      },
+      "first_post": true
+    },
+    {
+      "rank": 19,
+      "promo_id": "C09-04-rebuilt-E44-B011",
+      "title": "The Bride Left Behind at the Altar",
+      "duration_s": 56.7,
+      "structure": "continuous",
+      "segments": [
+        {
+          "episode": 44,
+          "start": "00:13.80",
+          "end": "01:10.50"
+        }
+      ],
+      "episodes": [
+        44
+      ],
+      "hook": {
+        "quote": "Get your hands off me! Catherine!",
+        "at": "E44 00:14.00",
+        "description": "Royal redcoat guards force V1 to his knees in a ruined nave as he struggles and shouts for Catherine."
+      },
+      "cliffhanger": {
+        "quote": "Her?!",
+        "open_question": "Who is the chained woman to the groom, and why does his walk toward her matter to the bride and the captive?",
+        "at": "E44 01:10.10"
+      },
+      "why_it_works": "The bride's grief and public humiliation are clear, and the groom's sudden walk toward the chained woman creates a sharp new question about who she is to him. The bride's startled reaction ends the cut on that open question.",
+      "biggest_weakness": "The chained woman is only shown in a brief glimpse, so her relationship to the groom and the stakes for the captive remain unclear within the cut.",
+      "viewer_question": "Who is the chained woman to the groom, and why does his walk toward her matter to the bride and the captive?",
+      "ending_summary": "In a ruined cathedral, the bride pleads with the groom she believed was dead, but he rejects her touch and denies that she was ever his duchess. He doubts her love, then turns his back on her and walks toward a chained woman waiting at the doorway. The bride sees this and cries out, 'Her?!', leaving the groom's connection to the chained woman unexplained and the blond captive still held by guards.",
+      "scores": {
+        "H": 4,
+        "T": 4,
+        "C": 4,
+        "P": 4,
+        "composite": 80.0
+      },
+      "flags": [
+        "soft:outside_25_50s",
+        "soft:dialogue_impact_gap_6.7s_review_pacing"
+      ],
+      "witness": null,
+      "first_post": true
+    },
+    {
+      "rank": 20,
+      "promo_id": "C10-01-rebuilt-E46-B055",
+      "title": "Ten Days Before the Council",
+      "duration_s": 47.08,
+      "structure": "continuous",
+      "segments": [
+        {
+          "episode": 46,
+          "start": "01:36.80",
+          "end": "02:23.88"
+        }
+      ],
+      "episodes": [
+        46
+      ],
+      "hook": {
+        "quote": "And I have the power to undo in one hearing what took you three years to steal!",
+        "at": "E46 01:36.80",
+        "description": "A person waving a letter overhead in a chapel while speaking threateningly about having the power to undo something."
+      },
+      "cliffhanger": {
+        "quote": "Ten days is plenty of time.",
+        "open_question": "What does the bride plan to do with the ten days, given her predatory smile as the priest leaves?",
+        "at": "E46 02:21.20"
+      },
+      "why_it_works": "The priest's letter and claim of power, the Duke's defiance, and the ten-day deadline set a concrete, contested stake. The bride's smile at the closing line turns her into an unreadable schemer, which makes her intent the open question that pulls the viewer forward.",
+      "biggest_weakness": "The bride's role and loyalties are only sketched through one close shot and one line, so her smile carries much of the ending's weight without enough prior characterization.",
+      "viewer_question": "What does the bride plan to do with the ten days, given her predatory smile as the priest leaves?",
+      "ending_summary": "The priest accuses the Duke of stealing his bride and threatens to undo the marriage at a hearing. The Duke stands firm against the armed guards, and the priest's ten-day challenge leaves the marriage contested. As the priest withdraws, the bride turns to camera with a predatory smile and says ten days is plenty of time, leaving her plan open.",
+      "scores": {
+        "H": 4,
+        "T": 4,
+        "C": 4,
+        "P": 4,
+        "composite": 80.0
+      },
+      "flags": [],
+      "witness": null,
+      "first_post": true
+    },
+    {
+      "rank": 21,
+      "promo_id": "C10-04-rebuilt-E48-B023",
+      "title": "No One Sees Him Arrive",
+      "duration_s": 46.1,
+      "structure": "continuous",
+      "segments": [
+        {
+          "episode": 48,
+          "start": "00:33.90",
+          "end": "01:20.00"
+        }
+      ],
+      "episodes": [
+        48
+      ],
+      "hook": {
+        "quote": "Everyone in that chapel saw me humiliated today.",
+        "at": "E48 00:34.20",
+        "description": "V1 strides forward, grasps V2 by both hands, steps uncomfortably close, and angrily states everyone saw them humiliated."
+      },
+      "cliffhanger": {
+        "quote": "Exterior shot looking through the dark diamond-paned window frame at Catherine standing motionless in the warm candlelight, staring outward into the night with cold, unyielding ambition as the scene fades to black.",
+        "open_question": "Will the priest reach the schemer without being seen, or will the bailiffs or household discover the secret visit?",
+        "at": "E48 01:16.80"
+      },
+      "why_it_works": "The bailiffs watching the roads set a concrete danger, and the servant's worry about being seen makes the secret summons feel risky. The schemer's cold confidence and the purse of gold show the stakes are personal and that she will push the plan forward.",
+      "biggest_weakness": "The cut ends on the schemer's gaze rather than the priest's arrival or the servant's return, so the outcome of the secret meeting stays open and the reason the priest's help matters is only partly explained.",
+      "viewer_question": "Will the priest reach the schemer without being seen, or will the bailiffs or household discover the secret visit?",
+      "ending_summary": "The schemer, freshly humiliated in the chapel, tells the servant that the priest must do more before the hearing. She hands the servant a purse and orders the priest summoned tonight with no witnesses. The servant slips out into the dark, and the schemer is left at the window, planning the next move.",
+      "scores": {
+        "H": 4,
+        "T": 4,
+        "C": 4,
+        "P": 4,
+        "composite": 80.0
+      },
+      "flags": [
+        "soft:dialogue_impact_gap_6.6s_review_pacing"
+      ],
+      "witness": null,
+      "first_post": true
+    },
+    {
+      "rank": 22,
+      "promo_id": "C10-06-rebuilt-E50-B021",
+      "title": "The Witness at the Door",
+      "duration_s": 40.2,
+      "structure": "continuous",
+      "segments": [
+        {
+          "episode": 50,
+          "start": "00:39.80",
+          "end": "01:20.00"
+        }
+      ],
+      "episodes": [
+        50
+      ],
+      "hook": {
+        "quote": "For as long as it holds.",
+        "at": "E50 00:40.40",
+        "description": "Father Thomas firmly clasps a hand at his neck while speaking a solemn line."
+      },
+      "cliffhanger": {
+        "quote": "Frantic backward tracking close-up on Agnes stumbling back into the shadows of the hallway, horrified by the lethal secret she has uncovered before an abrupt cut to black.",
+        "open_question": "Will the witness expose the priest and his lover, or keep their secret, and what will the discovery cost them?",
+        "at": "E50 01:18.50"
+      },
+      "why_it_works": "The slow walk down the corridor and the nervous scanning build suspense, and the doorway reveal lands as a clear interruption. The witness's terror shows what the secret could cost, so the viewer wants to know whether she will expose the lovers or keep silent.",
+      "biggest_weakness": "The cut ends on her reaction before any choice is made, so what she intends to do with the secret stays open and the stakes for the lovers are only suggested.",
+      "viewer_question": "Will the witness expose the priest and his lover, or keep their secret, and what will the discovery cost them?",
+      "ending_summary": "A witness carrying a lantern through a dim corridor opens a door and finds the priest and his lover together on the bed. Stunned and terrified, she stumbles back into the shadows, and the cut ends on her horror at the secret she has uncovered.",
+      "scores": {
+        "H": 4,
+        "T": 4,
+        "C": 4,
+        "P": 4,
+        "composite": 80.0
+      },
+      "flags": [
+        "soft:dialogue_impact_gap_12.0s_review_pacing"
+      ],
+      "witness": null,
+      "first_post": true
+    },
+    {
+      "rank": 23,
+      "promo_id": "C01-02-rebuilt-E03-B083",
+      "title": "The Rescuer's Kneeling Proposal",
+      "duration_s": 49.25,
+      "structure": "continuous",
+      "segments": [
+        {
+          "episode": 3,
+          "start": "01:36.50",
+          "end": "02:25.75"
+        }
+      ],
+      "episodes": [
+        3
+      ],
+      "hook": {
+        "quote": "You cannot interfere in a family matter!",
+        "at": "E03 01:36.50",
+        "description": "A person shrieks in exasperation from the altar steps demanding non-interference in a family matter."
+      },
+      "cliffhanger": {
+        "quote": "Juliana gazes down at her rugged savior, overcome with emotion as the swelling score holds on the cliffhanger.",
+        "open_question": "Will Lady Juliana accept the rescuer's marriage proposal and leave her family's control behind?",
+        "at": "E03 02:20.50"
+      },
+      "why_it_works": "The family's public humiliation of the bride, the rescuer's direct intervention, and the ring offer make the marriage choice concrete. The closing shot of her trembling, hopeful smile ends on the emotional question of her answer.",
+      "biggest_weakness": "The proposal is so clearly welcomed by the closing emotion that the bride's decision feels foreordained, which weakens the suspense of whether she will truly accept.",
+      "viewer_question": "Will Lady Juliana accept the rescuer's marriage proposal and leave her family's control behind?",
+      "ending_summary": "The rescuer steps between the bride and her family, offers her a silver ring, and kneels in the aisle to ask Lady Juliana to accept his hand. She is left tearful and hopeful as the scene fades, without giving her answer.",
+      "scores": {
+        "H": 4,
+        "T": 3,
+        "C": 4,
+        "P": 4,
+        "composite": 74.0
+      },
+      "flags": [
+        "soft:dialogue_impact_gap_5.7s_review_pacing"
+      ],
+      "witness": {
+        "block_id": "E04-B003",
+        "quote": "Juliana's eyes widen, stunned breath catching in her throat."
+      },
+      "first_post": false
+    },
+    {
+      "rank": 24,
+      "promo_id": "C05-01-rebuilt-E21-B058",
+      "title": "The Ledger and the Dying Duchess",
+      "duration_s": 34.2,
+      "structure": "continuous",
+      "segments": [
+        {
+          "episode": 21,
+          "start": "01:19.80",
+          "end": "01:54.00"
+        }
+      ],
+      "episodes": [
+        21
+      ],
+      "hook": {
+        "quote": "You saved him. The grand doctors left him to choke, but you...",
+        "at": "E21 01:19.80",
+        "description": "A person looks at another with awe and gratitude, stating You saved him while doctors left him to choke."
+      },
+      "cliffhanger": {
+        "quote": "Slow push-in on Lady Juliana staring down at the ancient pages, her expression filled with profound realization and growing resolve as dramatic strings swell to a gripping cliffhanger.",
+        "open_question": "Can Juliana use the herbal knowledge in the ledger to save the dying Dowager Duchess, given that the grand doctors have failed?",
+        "at": "E21 01:48.50"
+      },
+      "why_it_works": "The servant's warning that the grand house is failing its own dying matriarch raises a concrete danger, and the closing image of the herbal ledger suggests a possible means of intervention that stays unresolved at the cut.",
+      "biggest_weakness": "The ledger's contents and whether Juliana can act on them are never shown, and the final frame relies on an unspoken inference that the audience cannot verify.",
+      "viewer_question": "Can Juliana use the herbal knowledge in the ledger to save the dying Dowager Duchess, given that the grand doctors have failed?",
+      "ending_summary": "After saving the captive boy Toby, the rescued bride's servant Prudence tells the lady Juliana that the Dowager Duchess is dying of a mysterious illness that the grand doctors cannot stop. The cut ends with Juliana holding the late woman's herbal ledger, visibly shaken, as the rescuer considers what she might do.",
+      "scores": {
+        "H": 3,
+        "T": 4,
+        "C": 4,
+        "P": 4,
+        "composite": 73.0
+      },
+      "flags": [
+        "soft:dialogue_impact_gap_5.6s_review_pacing"
+      ],
+      "witness": {
+        "block_id": "E22-B011",
+        "quote": "The Duchess is dying."
+      },
+      "first_post": false
+    },
+    {
+      "rank": 25,
+      "promo_id": "C07-01-rebuilt-E34-B096",
+      "title": "Then Let It Be",
+      "duration_s": 38.8,
+      "structure": "continuous",
+      "segments": [
+        {
+          "episode": 34,
+          "start": "02:31.20",
+          "end": "03:10.00"
+        }
+      ],
+      "episodes": [
+        34
+      ],
+      "hook": {
+        "quote": "Think carefully.",
+        "at": "E34 02:31.80",
+        "description": "V1 lowers his brow with dark finality and says Think carefully."
+      },
+      "cliffhanger": {
+        "quote": "The Judge extends his raised hand high in judgment over Lady Juliana as the scene holds on her standing still and unbroken before fading to black.",
+        "open_question": "What sentence will the judge pronounce against the accused woman for witchcraft, and will she be condemned?",
+        "at": "E34 03:05.00"
+      },
+      "why_it_works": "The judge's warning sets a concrete choice, recant or be treated as a witch, and the accused's immediate refusal makes the danger of conviction clear. The weeping witness and the judge's escalating anger raise the emotional pressure, and the raised hand over the standing accused leaves the sentence pending as a strong pull toward what comes next.",
+      "biggest_weakness": "The cut ends just before the sentence is spoken, so the exact verdict and punishment remain unseen, and the accused's legal basis for the charge is not shown beyond the judge's warning.",
+      "viewer_question": "What sentence will the judge pronounce against the accused woman for witchcraft, and will she be condemned?",
+      "ending_summary": "In a courtroom, the judge warns the accused woman that refusing to recant may be taken as proof she knowingly practiced witchcraft. She refuses, saying 'Then let it be,' while a weeping woman hides her face in her apron. The judge rises and begins the sentence, addressing Lady Juliana Ashcroft, and raises his hand in judgment over her as she stands unbroken, before the scene fades to black without the sentence being spoken.",
+      "scores": {
+        "H": 3,
+        "T": 4,
+        "C": 4,
+        "P": 4,
+        "composite": 73.0
+      },
+      "flags": [
+        "soft:dialogue_impact_gap_5.8s_review_pacing"
+      ],
+      "witness": null,
+      "first_post": false
+    },
+    {
+      "rank": 26,
+      "promo_id": "C09-01-rebuilt-E41-B030",
+      "title": "The Captive's Rescue at the Wedding",
+      "duration_s": 47.59,
+      "structure": "continuous",
+      "segments": [
+        {
+          "episode": 41,
+          "start": "00:48.50",
+          "end": "01:36.09"
+        }
+      ],
+      "episodes": [
+        41
+      ],
+      "hook": {
+        "quote": "And now they can all see what you truly are.",
+        "at": "E41 00:48.60",
+        "description": "A person gestures broadly from altar steps speaking dramatically."
+      },
+      "cliffhanger": {
+        "quote": "Extreme close-up pushing in on Juliana's bruised face. Her expression shifts from grim resolve into awe, breathless realization, and blooming hope as the orchestral score swells into an abrupt cliffhanger.",
+        "open_question": "Will the armed figures emerging from the breached doorway reach the chained captive and free her from the bride's control, and what will the wedding's outcome be?",
+        "at": "E41 01:32.00"
+      },
+      "why_it_works": "The bride's taunt sets up the captive's humiliation and defiance, and the explosion followed by armed figures creates a sharp danger turn. The captive's composed reaction in the aisle keeps the viewer focused on whether the rescue will succeed.",
+      "biggest_weakness": "The cut ends before the armed figures reach the captive or the bride's response is visible, so the rescue's outcome and the wedding's fate remain open at the cut.",
+      "viewer_question": "Will the armed figures emerging from the breached doorway reach the chained captive and free her from the bride's control, and what will the wedding's outcome be?",
+      "ending_summary": "The bride publicly mocks the chained captive at the altar, then the wedding is interrupted when the cathedral entrance explodes. Armed figures emerge through the smoke, and the captive turns toward them as the cut ends before any rescue or outcome is shown.",
+      "scores": {
+        "H": 3,
+        "T": 4,
+        "C": 4,
+        "P": 4,
+        "composite": 73.0
+      },
+      "flags": [
+        "soft:dialogue_impact_gap_13.8s_review_pacing"
+      ],
+      "witness": null,
+      "first_post": false
+    },
+    {
+      "rank": 27,
+      "promo_id": "C09-03-free",
+      "title": "Cornered at the Church Door",
+      "duration_s": 55.06,
+      "structure": "jump_cut",
+      "segments": [
+        {
+          "episode": 43,
+          "start": "00:26.10",
+          "end": "01:06.00"
+        },
+        {
+          "episode": 43,
+          "start": "01:39.80",
+          "end": "01:54.96"
+        }
+      ],
+      "episodes": [
+        43
+      ],
+      "hook": {
+        "quote": "Then let the Crown decide.",
+        "at": "E43 00:26.10",
+        "description": "V1 delivers an icy command: Then let the Crown decide."
+      },
+      "cliffhanger": {
+        "quote": "Extreme close-up on Lord Sterling's face frozen in pure terror, his jaw agape as his escape is completely cut off, holding until fade to black.",
+        "open_question": "Will the accused lord get past the police constable blocking the door, or be caught and exposed as the leak?",
+        "at": "E43 01:52.80"
+      },
+      "why_it_works": "The reader's cold announcement of the leak and the accuser's pointing finger make the accused lord's panicked dash to the door a clear, dangerous bid to escape. The constable's line \"Going somewhere, Lord Sterling?\" closes the route in one beat, and the frozen terror of the accused lord leaves a concrete, immediate question hanging.",
+      "biggest_weakness": "The clip shows only the accusation and the blocked doorway, so the accused lord's motive and the wider political fallout of the leak remain unexplored; the bride's reaction is only briefly glimpsed.",
+      "viewer_question": "Will the accused lord get past the police constable blocking the door, or be caught and exposed as the leak?",
+      "ending_summary": "At the reading of a secret war report, the blond accuser names Lord Sterling as the one who handled the leak. Sterling bolts for the side exit and then flings open the heavy oak door, only to find a police constable blocking his way and calling out his name. The clip ends on his terrified face as escape is cut off, leaving open whether he can get past the officer or will be taken and exposed.",
+      "scores": {
+        "H": 3,
+        "T": 4,
+        "C": 4,
+        "P": 4,
+        "composite": 73.0
+      },
+      "flags": [
+        "soft:mid_shot_start",
+        "soft:outside_25_50s",
+        "soft:dialogue_impact_gap_4.2s_review_pacing"
+      ],
+      "witness": null,
+      "first_post": false
+    },
+    {
+      "rank": 28,
+      "promo_id": "C09-05-natural",
+      "title": "The Unlicensed Duchess",
+      "duration_s": 54.45,
+      "structure": "jump_cut",
+      "segments": [
+        {
+          "episode": 45,
+          "start": "00:22.60",
+          "end": "00:29.80"
+        },
+        {
+          "episode": 45,
+          "start": "01:14.50",
+          "end": "02:01.75"
+        }
+      ],
+      "episodes": [
+        45
+      ],
+      "hook": {
+        "quote": "You're the Duke?",
+        "at": "E45 00:22.90",
+        "description": "A person stands up and drapes a heavy crimson ducal mantle over another person's shoulders, who then asks if they are the duke."
+      },
+      "cliffhanger": {
+        "quote": "Catherine raises her chin, a vindictive smirk spreading across her lips as she realizes her rival's claim has just been torn to pieces.",
+        "open_question": "Will the Crown's challenge strip the bride of her ducal marriage and bring her into custody, and what does the veiled woman's triumphant smile signal about who engineered this?",
+        "at": "E45 01:58.00"
+      },
+      "why_it_works": "The duke's public declaration and the priest's legal objection create an immediate threat to the bride, with the drawn sword raising the stakes. The final veiled reaction from an unnamed woman adds a fresh mystery about who orchestrated the challenge.",
+      "biggest_weakness": "The veiled woman's identity and link to the plot are only shown through a reaction shot, so the audience has no in-cut way to connect her to the challenge beyond suspicion.",
+      "viewer_question": "Will the Crown's challenge strip the bride of her ducal marriage and bring her into custody, and what does the veiled woman's triumphant smile signal about who engineered this?",
+      "ending_summary": "The duke publicly presents his bride as the Duchess of Ashburton, but a priest and a Crown officer burst in and declare the vows invalid. The duke shields the bride as the officer draws his sword, and she is left in panic. The cut lands on a veiled woman whose despair turns to a triumphant smile, leaving open whether the bride will lose her marriage and be seized, and who engineered it.",
+      "scores": {
+        "H": 3,
+        "T": 4,
+        "C": 4,
+        "P": 4,
+        "composite": 73.0
+      },
+      "flags": [
+        "soft:mid_shot_start",
+        "soft:outside_25_50s",
+        "soft:dialogue_impact_gap_8.8s_review_pacing"
+      ],
+      "witness": null,
+      "first_post": false
+    },
+    {
+      "rank": 29,
+      "promo_id": "C10-05-rebuilt-E49-B039",
+      "title": "The Priest's Treasonous Pact",
+      "duration_s": 53.35,
+      "structure": "continuous",
+      "segments": [
+        {
+          "episode": 49,
+          "start": "01:31.40",
+          "end": "02:24.75"
+        }
+      ],
+      "episodes": [
+        49
+      ],
+      "hook": {
+        "quote": "You want eyes inside the council chamber itself?",
+        "at": "E49 01:31.60",
+        "description": "Close-up on Father Thomas reacting to a demand, followed by spoken dialogue asking about putting eyes inside the council chamber."
+      },
+      "cliffhanger": {
+        "quote": "Extreme close-up as Father Thomas gently raises his other hand and cups Catherine's cheek tenderly, her hand resting against his chest as she leans into his touch before cutting to black.",
+        "open_question": "Will the priest's secret pact with the woman be discovered by the Duke, and what will it cost him?",
+        "at": "E49 02:24.00"
+      },
+      "why_it_works": "The priest's fear of hanging for treason is set against the woman's persuasive offers of protection and reward, so the pact feels like a real gamble. The sealing gesture leaves the audience wondering when the Duke will find out.",
+      "biggest_weakness": "The clip resolves the decision to join the scheme too quickly and shifts into romance at the end, so the immediate threat of exposure is only implied rather than shown.",
+      "viewer_question": "Will the priest's secret pact with the woman be discovered by the Duke, and what will it cost him?",
+      "ending_summary": "The priest hesitates over the danger of spying on the Duke's council for the defiant woman. She presses him with the promise of gratitude and a debt owed, and he finally extends his palm. She seals the pact by taking his hand, and the clip ends with a tender gesture between them. The Duke's possible discovery of the conspiracy remains open.",
+      "scores": {
+        "H": 3,
+        "T": 4,
+        "C": 4,
+        "P": 4,
+        "composite": 73.0
+      },
+      "flags": [
+        "soft:outside_25_50s"
+      ],
+      "witness": null,
+      "first_post": false
+    }
+  ]
+}

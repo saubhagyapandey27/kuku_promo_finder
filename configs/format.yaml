@@ -1,0 +1,20 @@
+# Screenplay format. All parsing regexes live here so a new show's format can be fixed
+# without touching code (interview-day escape hatch).  Run:  python -m src parse --input <path>
+episode_number: '(?im)^\s*EPISODE\s*(?:NUMBER)?\s*[:#\-]?\s*(?:Episode\s*)?(\d+)\s*$'
+episode_number_alt: '(?im)^\s*EPISODE\s+NUMBER\s*[:\-]\s*(?:Episode\s*)?(\d+)'
+logline: '(?im)^\s*EPISODE\s+LOGLINE\s*[:\-]\s*(.+)$'
+continuity: '(?im)^\s*CONTINUITY\s+NOTES?\s*[:\-]\s*(.+)$'
+episode_split: '(?im)^\s*EPISODE\s+NUMBER\s*[:\-]'
+scene_marker: '(?im)^\s*SCENE\s+(\d+)\s*$'
+scene_heading: '(?im)^\s*SCENE\s+HEADING\s*[:\-]\s*(.+)$'
+scene_start: '(?im)^\s*SCENE\s+START\s*[:\-]\s*(.+)$'
+scene_end: '(?im)^\s*SCENE\s+END\s*[:\-]\s*(.+)$'
+# block header: **LABEL:**  or **LABEL (delivery):**
+block_header: '^\*\*(?P<label>.+?):?\*\*\s*:?\s*$'
+time_pair: '(?i)Start\s*[:=]?\s*[\(\[]?\s*(?P<a>[\d:.,]+)\s*[\)\]]?\s*[|,;\-–—/]?\s*End\s*[:=]?\s*[\(\[]?\s*(?P<b>[\d:.,]+)\s*[\)\]]?'
+kinds:
+  SHOT: [CAMERA, SHOT, CAMERA SHOT, VISUAL]
+  ACTION: [ACTION, ACTIONS, BUSINESS]
+  SFX: [SOUND FX, SOUND, SFX, SOUND EFFECT, SOUND EFFECTS, AUDIO]
+script_start: '(?im)^\s*-{2,}\s*SCRIPT\s+START\s*-{2,}\s*$'
+script_end: '(?im)^\s*-{2,}\s*SCRIPT\s+END\s*-{2,}\s*$'

@@ -1,0 +1,74 @@
+EPISODE NUMBER: Episode 1
+EPISODE LOGLINE: Original synthetic oxygen choice for a saved pipeline demonstration.
+
+--- SCRIPT START ---
+SCENE 01
+Scene heading: INT. ARCHIVE – NIGHT
+Scene start: 00:00.00
+Scene end: 00:39.00
+
+**CAMERA:**
+Start: (00:00.00) | End: (00:03.00)
+Close-up of a red oxygen gauge beside a sealed glass door. A woman is trapped behind the glass.
+
+**TECHNICIAN (Shouting):**
+Start: (00:00.30) | End: (00:02.80)
+Her oxygen stops in thirty seconds!
+
+**CAMERA:**
+Start: (00:03.00) | End: (00:08.00)
+A second woman grips an emergency door handle. A sealed evidence cabinet is wired to the same lock.
+
+**OPERATOR (Urgent):**
+Start: (00:03.30) | End: (00:07.70)
+Open her door and the furnace burns our only evidence.
+
+**CAMERA:**
+Start: (00:08.00) | End: (00:13.00)
+The trapped woman pounds on the glass. The red gauge falls.
+
+**TECHNICIAN (Pleading):**
+Start: (00:08.30) | End: (00:12.70)
+That evidence proves who locked her in. We cannot lose it.
+
+**CAMERA:**
+Start: (00:13.00) | End: (00:18.00)
+The operator holds the handle. Smoke presses against the evidence cabinet.
+
+**OPERATOR (Trembling):**
+Start: (00:13.30) | End: (00:17.70)
+There must be another switch. Find it!
+
+**CAMERA:**
+Start: (00:18.00) | End: (00:23.00)
+The technician checks an empty control panel. The trapped woman drops to her knees.
+
+**TECHNICIAN (Panicked):**
+Start: (00:18.30) | End: (00:22.70)
+Nothing. One handle controls both doors.
+
+**CAMERA:**
+Start: (00:23.00) | End: (00:29.00)
+The operator holds the handle while the trapped woman presses one hand to the glass.
+
+**OPERATOR (Desperate):**
+Start: (00:23.30) | End: (00:28.70)
+If I pull it, the proof burns. If I do not, she dies.
+
+**CAMERA:**
+Start: (00:29.00) | End: (00:34.00)
+The operator pulls the handle. The glass door opens and the evidence cabinet fills with flame.
+
+**TECHNICIAN (Relieved):**
+Start: (00:29.30) | End: (00:33.70)
+She is breathing. You saved her.
+
+**CAMERA:**
+Start: (00:34.00) | End: (00:39.00)
+The operator holds the rescued woman beside the open door.
+
+**OPERATOR (Quiet):**
+Start: (00:34.30) | End: (00:38.70)
+The evidence is gone. But she is safe.
+
+--- SCRIPT END ---

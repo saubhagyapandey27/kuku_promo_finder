@@ -1,0 +1,34 @@
+services:
+  - type: web
+    name: microdrama-promo-api
+    runtime: python
+    # Persistent disk requires a paid service plan; this file does not deploy/purchase it.
+    plan: starter
+    buildCommand: pip install -r requirements.txt
+    startCommand: python -m uvicorn api.main:app --host 0.0.0.0 --port $PORT --workers 1
+    healthCheckPath: /api/health
+    disk:
+      name: promo-job-state
+      mountPath: /var/data
+      sizeGB: 1
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.13.12
+      - key: PF_REMOTE
+        value: "1"
+      - key: PF_PRIVATE
+        value: "0"
+      - key: PF_LIVE_ENABLED
+        value: "0"
+      - key: PF_VISITOR_KEYS_ENABLED
+        value: "1"
+      - key: PF_PERSISTENT_STORAGE
+        value: "1"
+      - key: PF_RUNS_DIR
+        value: /var/data/promo-web-runs
+      - key: PF_SESSION_SECRET
+        generateValue: true
+      # Set to the exact GitHub Pages origin (scheme + host, no path/slash),
+      # e.g. https://your-username.github.io . Enables CORS + cross-site cookies.
+      - key: PF_ALLOWED_ORIGIN
+        sync: false

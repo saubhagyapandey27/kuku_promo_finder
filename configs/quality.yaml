@@ -1,0 +1,18 @@
+name: quality
+description: blind-first final screenplay cuts with authoritative Haiku source closure
+roles:
+  bible: [glm-5.3-flash:medium]
+  miner: [glm-5.3-flash:medium]
+  composer: [glm-5.3-flash:low]
+  repair: [glm-5.3-flash:low]
+  naive: [glm-5.3-flash:medium]
+  auditor: [glm-5.3-flash:low, gemini-3.5-flash-lite:medium]
+  hook: [gemini-3.5-flash-lite:low, haiku-5.5:low]
+  cold: [haiku-5.5:medium, glm-5.3-flash:low, gemini-3.5-flash-lite:medium]
+  producer: [haiku-5.5:low, gemini-3.5-flash-lite:medium]
+  critic: [haiku-5.5:low]
+  jury: [haiku-5.5:low, gemini-3.5-flash-lite:medium]
+ranking: {mode: rubric, weights: {H: 0.35, T: 0.30, C: 0.20, P: 0.15}, iou_threshold: 0.60}
+jury: {seats: 2, rounds: [R1, R2], group_size: 6, pool: 200}
+pool: {prefilter: 30}
+experiments: {final_cuts: true, flash_forward: false, composer: false, extra_requests: 8, audit_group_span_s: 60, semantic_limit: 40}

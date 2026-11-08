@@ -1,0 +1,494 @@
+{
+  "show": "Original synthetic oxygen choice",
+  "n": 1,
+  "note": "Opening-first, question-verified screenplay cuts; model rubric, no footage or audience validation.",
+  "run_kind": "new_run",
+  "ranking_method": {
+    "mode": "rubric",
+    "weights": {
+      "H": 0.35,
+      "T": 0.3,
+      "C": 0.2,
+      "P": 0.15
+    },
+    "iou_threshold": 0.6
+  },
+  "posting_plan": {
+    "posting_order": [
+      "C01-01-natural"
+    ],
+    "first_post_shortlist": [
+      "C01-01-natural"
+    ],
+    "top_five": [
+      "C01-01-natural"
+    ],
+    "method": "rubric-1",
+    "note": "Editorial weights; no audience conversion measurement."
+  },
+  "coverage": {
+    "version": "opening-question-rubric-2",
+    "parsed_episodes": [
+      1
+    ],
+    "mined_episodes": [
+      1
+    ],
+    "failed_mining_windows": [],
+    "seed_proposals": 1,
+    "boundary_options": 1,
+    "opening_states": {
+      "promising": 1
+    },
+    "planned_semantic_count": 1,
+    "planned_semantic_states": {
+      "accepted": 1,
+      "editorially_rejected": 0,
+      "ambiguous_review": 0,
+      "operationally_failed": 0,
+      "budget_deferred": 0
+    },
+    "planned_assessment_complete": true,
+    "bounded_search_untried": 0,
+    "semantically_unreviewed_options": 0,
+    "mechanical_seed_failures": [],
+    "accepted_before_suppression": 1,
+    "final_cuts": 1,
+    "alternates": 0,
+    "episodes_in_final_cuts": [
+      1
+    ],
+    "complete_coverage": true,
+    "exhaustive_interval_search": false
+  },
+  "cost": {
+    "total_usd": 0.0,
+    "by_role_model": {},
+    "calls": {},
+    "cache_hits": 5,
+    "stage_models": {},
+    "budget_usd": 0.005,
+    "admission": {
+      "run:D:\\Workspace\\PLACEMENTS 2027\\KukuAssignment\\Rough Intermediate Files\\final_decision_20261108_v1\\runs\\original-synthetic-oxygen-choice\\synthetic_saved_final": {},
+      "experiment": {
+        "pending": {
+          "usd": 0.0,
+          "requests": 1
+        },
+        "settled": {
+          "usd": 0.195823,
+          "requests": 348
+        },
+        "uncertain": {
+          "usd": 0.0,
+          "requests": 5
+        }
+      }
+    }
+  },
+  "promos": [
+    {
+      "rank": 1,
+      "promo_id": "C01-01-natural",
+      "title": "The Handle and the Proof",
+      "structure": "continuous",
+      "source": "miner",
+      "segments": [
+        {
+          "episode": 1,
+          "start": "00:00.00",
+          "end": "00:29.00",
+          "start_s": 0.0,
+          "end_s": 29.0
+        }
+      ],
+      "duration_s": 29.0,
+      "hook": {
+        "at": "E01 00:00.00",
+        "quote": "Close-up of a red oxygen gauge beside a sealed glass door. A woman is trapped behind the glass.",
+        "type": "other",
+        "description": "A close-up of a red oxygen gauge and a woman trapped behind a glass door, accompanied by the urgent warning that her oxygen stops in thirty seconds."
+      },
+      "cliffhanger": {
+        "at": "E01 00:23.30",
+        "quote": "If I pull it, the proof burns. If I do not, she dies.",
+        "type": "choice",
+        "open_question": "Will the rescuer pull the handle and lose the evidence proving who locked the woman in, or hold it and let the trapped woman die?"
+      },
+      "conflict_thread": "The trapped woman's oxygen is running out while the only handle controls both the sealed door and the evidence cabinet's furnace.; The trapped woman's oxygen gauge is falling, and the evidence cabinet is threatened by smoke and the furnace if the door is opened.",
+      "why_it_works": "The setup establishes a clear, immediate danger with a countdown on the oxygen gauge, and the search for another switch closes off escape routes. The rescuer's choice is concrete and morally weighted, so the viewer is pulled to see which loss the rescuer accepts.",
+      "ua_angle": "",
+      "suggested_caption": "",
+      "scores": {
+        "hook": 5,
+        "cliff_pull": 5,
+        "comprehension": 4,
+        "pacing": 4,
+        "composite": 93.0,
+        "cliff_signal": 4.0
+      },
+      "pl": null,
+      "family_id": "Q376a86752151",
+      "alternates": [],
+      "flags": [],
+      "entry_episode": 1,
+      "judge_models": {
+        "hook": "gemini-3.5-flash-lite:low",
+        "cold": "haiku-5.5:medium"
+      },
+      "status": "final_script_edl",
+      "wave": null,
+      "platform_risk": null,
+      "spoiler_level": null,
+      "biggest_weakness": "The cut relies on a few repeated lines of dialogue to restate the dilemma, and the evidence's identity and the locker's real threat are only partly visualized, so the stakes feel somewhat static before the final beat.",
+      "dead_air_s": 0.6,
+      "repairs": 0,
+      "merged_from": [],
+      "eligibility": {
+        "proposal": {
+          "episode_of_hook": 1,
+          "label": "Thirty Seconds, One Handle",
+          "rationale": "The dilemma is fully set up and the save itself resolves the mystery, so the strongest still-unanswered beat is the operator holding the handle with the choice unmade. Ending at B012 keeps the life-vs-evidence question open for new viewers; the 29-second continuous run from the oxygen countdown hook to the desperate dilemma stays within limits and preserves causality.",
+          "segments": [
+            {
+              "start_block": "E01-B001",
+              "end_block": "E01-B012",
+              "purpose": "Continuous setup: oxygen countdown, the shared handle reveal, the failed search for another switch, and the unresolved choice."
+            }
+          ],
+          "hook_block": "E01-B001",
+          "cliff_block": "E01-B012",
+          "peak_block": "E01-B012",
+          "hook_quote": "\"Her oxygen stops in thirty seconds!\"",
+          "cliff_quote": "\"If I pull it, the proof burns. If I do not, she dies.\"",
+          "hook_type": "danger_spectacle",
+          "cliff_type": "pending_decision",
+          "hook_description": "Close-up of the red oxygen gauge dropping beside a sealed glass door with a woman trapped behind it as the Technician shouts the thirty-second warning.",
+          "cliff_description": "The operator grips the shared handle, caught mid-choice: pulling it saves the woman but burns the only proof of who locked her in.",
+          "conflict_thread": "Rescuers must choose between opening the door to save a suffocating woman and preserving the evidence that proves who trapped her.",
+          "open_question": "Will the operator pull the handle and destroy the only evidence of who locked the woman in — or let her suffocate to keep the proof?",
+          "missing_context": [
+            "Who locked the woman in and why the evidence matters",
+            "Why the evidence cabinet is wired to the same door lock"
+          ],
+          "est_duration_s": 29.0,
+          "confidence": 0.9,
+          "required_setup_ids": [
+            "E01-B001",
+            "E01-B002",
+            "E01-B003",
+            "E01-B004"
+          ]
+        },
+        "required_setup_ids": [
+          "E01-B001",
+          "E01-B002",
+          "E01-B003",
+          "E01-B004"
+        ],
+        "start_at_hook": false,
+        "generation_models": {
+          "miner": "glm-5.3-flash:medium"
+        },
+        "hook_assessment": {
+          "id": "H01",
+          "gut_reaction": "Immediate life-or-death emergency depicted with a visible countdown gauge and trapped person.",
+          "question_raised": "Will they save her before the oxygen runs out?",
+          "stop_power": 5,
+          "cue_ids": [
+            "E01-B001",
+            "E01-B002"
+          ],
+          "cue_summary": "A close-up of a red oxygen gauge and a woman trapped behind a glass door, accompanied by the urgent warning that her oxygen stops in thirty seconds.",
+          "timing_uncertainty": "0.00-3.00s",
+          "critical_uncertainty": false
+        },
+        "opening_fingerprint": "a6f06bb72341ce5db1fc16506a13024f",
+        "opening_packet": {
+          "text": "SETTING: interior, archive, night\n[E01-B001 0.00–3.00s] SHOT: Close-up of a red oxygen gauge beside a sealed glass door. A woman is trapped behind the glass.\n[E01-B002 0.30–2.80s] LINE: V1 (person): \"Her oxygen stops in thirty seconds!\"",
+          "timing_basis": {
+            "E01-B001": "source-event-complete",
+            "E01-B002": "source-event-complete"
+          },
+          "uncertainty": {}
+        },
+        "assessment": {
+          "trigger_event": "The trapped woman's oxygen is running out while the only handle controls both the sealed door and the evidence cabinet's furnace.",
+          "target": "The rescuer holding the handle must choose between saving the trapped woman and preserving the evidence.",
+          "visible_stake": "The trapped woman's oxygen gauge is falling, and the evidence cabinet is threatened by smoke and the furnace if the door is opened.",
+          "viewer_question": "Will the rescuer pull the handle and lose the evidence proving who locked the woman in, or hold it and let the trapped woman die?",
+          "question_kind": "choice",
+          "resolved_in_clip": false,
+          "setup_quote_ids": [
+            "E01-B002",
+            "E01-B004"
+          ],
+          "terminal_quote_ids": [
+            "E01-B012"
+          ],
+          "evidence": [
+            {
+              "block_id": "E01-B002",
+              "quote": "Her oxygen stops in thirty seconds!"
+            },
+            {
+              "block_id": "E01-B004",
+              "quote": "Open her door and the furnace burns our only evidence."
+            },
+            {
+              "block_id": "E01-B006",
+              "quote": "That evidence proves who locked her in. We cannot lose it."
+            },
+            {
+              "block_id": "E01-B010",
+              "quote": "Nothing. One handle controls both doors."
+            },
+            {
+              "block_id": "E01-B012",
+              "quote": "If I pull it, the proof burns. If I do not, she dies."
+            }
+          ],
+          "cliff": 5,
+          "clarity": 4,
+          "pacing": 4,
+          "title": "The Handle and the Proof",
+          "ending_summary": "The rescuer grips the only handle that controls both the trapped woman's door and the evidence cabinet. The trapped captive's oxygen is failing, the technician finds no second switch, and the rescuer admits that pulling the handle burns the proof while holding it lets the captive die. The cut ends with the decision still open.",
+          "why_it_works": "The setup establishes a clear, immediate danger with a countdown on the oxygen gauge, and the search for another switch closes off escape routes. The rescuer's choice is concrete and morally weighted, so the viewer is pulled to see which loss the rescuer accepts.",
+          "biggest_weakness": "The cut relies on a few repeated lines of dialogue to restate the dilemma, and the evidence's identity and the locker's real threat are only partly visualized, so the stakes feel somewhat static before the final beat.",
+          "critical_uncertainty": false
+        },
+        "viewer_model": "haiku-5.5:medium",
+        "fingerprint": "eca565262125bfdf68bee91dd9ef7381",
+        "closure_context_hash": "5880def19c06b670f03eadae7b8e7b66",
+        "readiness": {
+          "fingerprint": "551876926ad0d6fa4b08da32b5de749a",
+          "models": [
+            {
+              "model": "haiku-5.5:low",
+              "model_id": "anthropic/claude-haiku-5.5",
+              "family": "anthropic"
+            }
+          ],
+          "reviews": [
+            {
+              "id": "A",
+              "source_clarification": [],
+              "in_clip_payoff": [],
+              "reopening_trigger": [],
+              "postcut_response": [
+                {
+                  "block_id": "E01-B014",
+                  "quote": "She is breathing. You saved her."
+                }
+              ],
+              "evidence": [
+                {
+                  "block_id": "E01-B002",
+                  "quote": "Her oxygen stops in thirty seconds!"
+                },
+                {
+                  "block_id": "E01-B004",
+                  "quote": "Open her door and the furnace burns our only evidence."
+                },
+                {
+                  "block_id": "E01-B012",
+                  "quote": "If I pull it, the proof burns. If I do not, she dies."
+                }
+              ],
+              "issues": [],
+              "core_conflict_grounded": true,
+              "payoff_withheld_at_cut": true,
+              "reason": "The choice between saving the trapped woman and preserving the evidence is grounded in the cut via oxygen countdown, the single handle controlling both doors, and the explicit dilemma line. The decision is not shown by cut end; the post-cut rescue is only timing contrast and cannot supply in-cut pull.",
+              "model": "haiku-5.5:low",
+              "model_id": "anthropic/claude-haiku-5.5",
+              "family": "anthropic",
+              "request_hash": "44133701a2f8d13a75455f0e2f546941",
+              "quote_normalizations": [],
+              "rule_normalizations": []
+            }
+          ]
+        },
+        "ranking": {
+          "method": "rubric-1",
+          "inputs": {
+            "H": 5,
+            "T": 5,
+            "C": 4,
+            "P": 4
+          },
+          "weights": {
+            "H": 0.35,
+            "T": 0.3,
+            "C": 0.2,
+            "P": 0.15
+          },
+          "score": 93.0,
+          "fingerprint": "184dd5cde6b36af62668a5d351d7a02f"
+        }
+      },
+      "selected_transcript": [
+        {
+          "block_id": "E01-B001",
+          "episode": 1,
+          "kind": "SHOT",
+          "speaker": "",
+          "start_s": 0.0,
+          "end_s": 3.0,
+          "text": "Close-up of a red oxygen gauge beside a sealed glass door. A woman is trapped behind the glass.",
+          "timing_basis": "source-event-complete",
+          "uncertainty": {}
+        },
+        {
+          "block_id": "E01-B002",
+          "episode": 1,
+          "kind": "LINE",
+          "speaker": "TECHNICIAN (Shouting)",
+          "start_s": 0.3,
+          "end_s": 2.8,
+          "text": "Her oxygen stops in thirty seconds!",
+          "timing_basis": "source-event-complete",
+          "uncertainty": {}
+        },
+        {
+          "block_id": "E01-B003",
+          "episode": 1,
+          "kind": "SHOT",
+          "speaker": "",
+          "start_s": 3.0,
+          "end_s": 8.0,
+          "text": "A second woman grips an emergency door handle. A sealed evidence cabinet is wired to the same lock.",
+          "timing_basis": "source-event-complete",
+          "uncertainty": {}
+        },
+        {
+          "block_id": "E01-B004",
+          "episode": 1,
+          "kind": "LINE",
+          "speaker": "OPERATOR (Urgent)",
+          "start_s": 3.3,
+          "end_s": 7.7,
+          "text": "Open her door and the furnace burns our only evidence.",
+          "timing_basis": "source-event-complete",
+          "uncertainty": {}
+        },
+        {
+          "block_id": "E01-B005",
+          "episode": 1,
+          "kind": "SHOT",
+          "speaker": "",
+          "start_s": 8.0,
+          "end_s": 13.0,
+          "text": "The trapped woman pounds on the glass. The red gauge falls.",
+          "timing_basis": "source-event-complete",
+          "uncertainty": {}
+        },
+        {
+          "block_id": "E01-B006",
+          "episode": 1,
+          "kind": "LINE",
+          "speaker": "TECHNICIAN (Pleading)",
+          "start_s": 8.3,
+          "end_s": 12.7,
+          "text": "That evidence proves who locked her in. We cannot lose it.",
+          "timing_basis": "source-event-complete",
+          "uncertainty": {}
+        },
+        {
+          "block_id": "E01-B007",
+          "episode": 1,
+          "kind": "SHOT",
+          "speaker": "",
+          "start_s": 13.0,
+          "end_s": 18.0,
+          "text": "The operator holds the handle. Smoke presses against the evidence cabinet.",
+          "timing_basis": "source-event-complete",
+          "uncertainty": {}
+        },
+        {
+          "block_id": "E01-B008",
+          "episode": 1,
+          "kind": "LINE",
+          "speaker": "OPERATOR (Trembling)",
+          "start_s": 13.3,
+          "end_s": 17.7,
+          "text": "There must be another switch. Find it!",
+          "timing_basis": "source-event-complete",
+          "uncertainty": {}
+        },
+        {
+          "block_id": "E01-B009",
+          "episode": 1,
+          "kind": "SHOT",
+          "speaker": "",
+          "start_s": 18.0,
+          "end_s": 23.0,
+          "text": "The technician checks an empty control panel. The trapped woman drops to her knees.",
+          "timing_basis": "source-event-complete",
+          "uncertainty": {}
+        },
+        {
+          "block_id": "E01-B010",
+          "episode": 1,
+          "kind": "LINE",
+          "speaker": "TECHNICIAN (Panicked)",
+          "start_s": 18.3,
+          "end_s": 22.7,
+          "text": "Nothing. One handle controls both doors.",
+          "timing_basis": "source-event-complete",
+          "uncertainty": {}
+        },
+        {
+          "block_id": "E01-B011",
+          "episode": 1,
+          "kind": "SHOT",
+          "speaker": "",
+          "start_s": 23.0,
+          "end_s": 29.0,
+          "text": "The operator holds the handle while the trapped woman presses one hand to the glass.",
+          "timing_basis": "source-event-complete",
+          "uncertainty": {}
+        },
+        {
+          "block_id": "E01-B012",
+          "episode": 1,
+          "kind": "LINE",
+          "speaker": "OPERATOR (Desperate)",
+          "start_s": 23.3,
+          "end_s": 28.7,
+          "text": "If I pull it, the proof burns. If I do not, she dies.",
+          "timing_basis": "source-event-complete",
+          "uncertainty": {}
+        }
+      ],
+      "selected_transcript_text": "[0.00–3.00s] E01-B001 SHOT : Close-up of a red oxygen gauge beside a sealed glass door. A woman is trapped behind the glass.\n[0.30–2.80s] E01-B002 LINE TECHNICIAN (Shouting): Her oxygen stops in thirty seconds!\n[3.00–8.00s] E01-B003 SHOT : A second woman grips an emergency door handle. A sealed evidence cabinet is wired to the same lock.\n[3.30–7.70s] E01-B004 LINE OPERATOR (Urgent): Open her door and the furnace burns our only evidence.\n[8.00–13.00s] E01-B005 SHOT : The trapped woman pounds on the glass. The red gauge falls.\n[8.30–12.70s] E01-B006 LINE TECHNICIAN (Pleading): That evidence proves who locked her in. We cannot lose it.\n[13.00–18.00s] E01-B007 SHOT : The operator holds the handle. Smoke presses against the evidence cabinet.\n[13.30–17.70s] E01-B008 LINE OPERATOR (Trembling): There must be another switch. Find it!\n[18.00–23.00s] E01-B009 SHOT : The technician checks an empty control panel. The trapped woman drops to her knees.\n[18.30–22.70s] E01-B010 LINE TECHNICIAN (Panicked): Nothing. One handle controls both doors.\n[23.00–29.00s] E01-B011 SHOT : The operator holds the handle while the trapped woman presses one hand to the glass.\n[23.30–28.70s] E01-B012 LINE OPERATOR (Desperate): If I pull it, the proof burns. If I do not, she dies.",
+      "opening_window": {
+        "text": "SETTING: interior, archive, night\n[E01-B001 0.00–3.00s] SHOT: Close-up of a red oxygen gauge beside a sealed glass door. A woman is trapped behind the glass.\n[E01-B002 0.30–2.80s] LINE: V1 (person): \"Her oxygen stops in thirty seconds!\"",
+        "timing_basis": {
+          "E01-B001": "source-event-complete",
+          "E01-B002": "source-event-complete"
+        },
+        "uncertainty": {}
+      },
+      "opening_quote_label": "Opening source line (not necessarily fully audible in three seconds)",
+      "longest_dialogue_impact_gap_s": 0.6,
+      "ranking": {
+        "method": "rubric-1",
+        "inputs": {
+          "H": 5,
+          "T": 5,
+          "C": 4,
+          "P": 4
+        },
+        "weights": {
+          "H": 0.35,
+          "T": 0.3,
+          "C": 0.2,
+          "P": 0.15
+        },
+        "score": 93.0,
+        "fingerprint": "184dd5cde6b36af62668a5d351d7a02f"
+      },
+      "first_post": true
+    }
+  ]
+}

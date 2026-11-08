@@ -1,0 +1,38 @@
+price_rule:
+  max_out_per_m: 0.5
+  named_exceptions: []
+models:
+  haiku-5.5:
+    provider: openrouter
+    id: anthropic/claude-haiku-5.5
+    family: anthropic
+    price_in: 0.1
+    price_out: 0.5
+    moderated: true
+    supports_temperature: false
+  gemini-3.5-flash-lite:
+    provider: gemini
+    id: gemini-3.5-flash-lite
+    family: google
+    price_in: 0.0
+    price_out: 0.0
+    free: true
+    trains_on_prompts: true
+    free_quota:
+      rpm: 15
+      rpd: 500
+      tpm: 250000
+  glm-5.3-flash:
+    provider: openrouter
+    id: z-ai/glm-5.3-flash
+    family: zhipu
+    price_in: 0.15
+    price_out: 0.5
+defaults:
+  openrouter_base_url: https://openrouter.ai/api/v1
+  rpm:
+    openrouter: 60
+    gemini: 5
+  gemini_free_quota:
+    rpm: 5
+    rpd: 20

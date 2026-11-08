@@ -1,0 +1,14 @@
+{
+  "kind": "synthetic_demo",
+  "original_source": true,
+  "run_id": "synthetic_saved_final",
+  "description": "Original synthetic episode and unedited saved pipeline result. Viewing makes no model calls.",
+  "cache_scope": "The first live pass reached every stage. The saved replay reuses unchanged responses after a critic-consistency correction; no historical Kuku checkpoints were used.",
+  "live_demo_iteration_cost_usd": 0.00267,
+  "n": 1,
+  "hashes": {
+    "episode.txt": "cfc37bc4110ebf1478676741f8489cd0716b5fb7d1d08e271b47c58139ab903b",
+    "promos.json": "de81709b84dd39e0d1a47f5caddd4987f6d7929047b871288fbb3ba9db681cf2",
+    "promos.csv": "e554c1bcc74ba98a079c3680544a6dfb740bff47c74026ac086296aba529ed7c"
+  }
+}

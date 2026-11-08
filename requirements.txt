@@ -1,0 +1,14 @@
+# Runtime dependencies for the app and TXT/MD/ZIP pipeline.
+# Optional PDF/DOCX readers are documented in README.md.
+openai==3.46.0
+google-genai==3.0.0
+pydantic==2.14.3
+rapidfuzz==3.14.6
+numpy==2.5.4
+pyyaml==6.0.3
+fastapi==0.162.2
+uvicorn==0.54.0
+python-multipart==0.0.33
+itsdangerous==2.2.0
+choix==0.4.1
+python-dotenv==1.2.4

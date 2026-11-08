@@ -1,0 +1,19 @@
+# Confidential outputs and private handover notes
+/outputs/
+/PRIVATE_SUBMISSION_NOTES.md
+# Credentials and local execution artifacts
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.hypothesis/
+.cache/
+/data/
+/runs/
+*.zip
+node_modules/
+frontend/dist/
+frontend/public/
