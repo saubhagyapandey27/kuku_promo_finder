@@ -7,7 +7,7 @@
 import type { Saved } from "./model";
 
 const RAW_BASE = (import.meta.env.VITE_API_BASE_URL as string | undefined) || "/api";
-export const API_BASE = RAW_BASE.replace(/\/+$/, "");
+export const API_BASE = RAW_BASE.trim().replace(/\/+$/, "");
 
 /** True only when an API endpoint is explicitly configured (deploy) or local dev. */
 export function apiEnabled(): boolean {
