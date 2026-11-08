@@ -89,6 +89,7 @@ input:focus-visible, select:focus-visible, button:focus-visible, [role="button"]
   font-weight: 700;
   font-size: 0.98rem;
   letter-spacing: -0.01em;
+  flex: 1 1 auto;
 }
 .brand-mark {
   width: 12px;
@@ -129,10 +130,12 @@ input:focus-visible, select:focus-visible, button:focus-visible, [role="button"]
 .github-link {
   display: inline-flex;
   align-items: center;
+  gap: 8px;
   color: #f4f2ee;
   opacity: 0.85;
   transition: opacity 0.15s, color 0.15s;
-  flex: none;
+  flex: 1 1 auto;
+  justify-content: flex-end;
 }
 .github-link:hover { opacity: 1; color: #fff; }
 .seg-dot {

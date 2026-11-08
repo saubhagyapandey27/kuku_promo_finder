@@ -29,6 +29,7 @@ const INSTRUCTIONS: string[] = [
 ];
 export function NewRun({ active }: { active: boolean }) {
   const [caps, setCaps] = useState<{ formats: string[]; visitor_enabled: boolean; visitor_reason: string }>();
+  const [capsError, setCapsError] = useState("");
   const [files, setFiles] = useState<File[]>([]);
   const [checked, setChecked] = useState<Checked>();
   const [key, setKey] = useState("");
@@ -42,10 +43,29 @@ export function NewRun({ active }: { active: boolean }) {
   useEffect(() => {
     if (!active) return;
     const ctrl = new AbortController();
-    loadConfig(ctrl.signal)
-      .then(setCaps)
-      .catch(() => setCaps({ formats: ["txt", "md", "zip"], visitor_enabled: false, visitor_reason: "API is not reachable." }));
-    return () => ctrl.abort();
+    let stopped = false;
+    let timer: number | undefined;
+    // Free instances cold-start (up to ~1 min). Retry until the API answers
+    // so one failed fetch can't brick the button for the whole session.
+    const attempt = () => {
+      loadConfig(ctrl.signal)
+        .then((c) => {
+          if (stopped) return;
+          setCaps(c);
+          setCapsError("");
+        })
+        .catch(() => {
+          if (stopped) return;
+          setCapsError("API is not reachable — retrying…");
+          timer = setTimeout(attempt, 5000);
+        });
+    };
+    attempt();
+    return () => {
+      stopped = true;
+      ctrl.abort();
+      clearTimeout(timer);
+    };
   }, [active]);
 
   useEffect(() => {
@@ -205,6 +225,17 @@ export function NewRun({ active }: { active: boolean }) {
         <button className="btn-primary btn-big" disabled={!canGenerate} onClick={generate}>
           {running ? "Generating…" : "Generate promos"}
         </button>
+
+        {!caps && (
+          <p className="fine" role="status">
+            {capsError || "Connecting to the server… (free instances wake slowly — up to ~1 minute)"}
+          </p>
+        )}
+        {caps && !caps.visitor_enabled && (
+          <p className="fine" role="status">
+            {caps.visitor_reason}
+          </p>
+        )}
 
         {checked && phase !== "idle" && (
           <p className="run-facts" aria-live="polite">
